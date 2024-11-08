@@ -17,12 +17,13 @@ body {
 }
 
 .container {
-    width: 1440px;
+    width: 100%;
+    max-width: 500px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 20px;
 
     padding: 30px;
-    margin: auto;
+    margin: 250px auto;
     /* display: block; divs are display block by default */
 
     box-sizing: border-box;
